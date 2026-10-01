@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>[Your Name] – AI/ML Projects</title>
+<meta name="description" content="Practical AI and machine learning projects by [Your Name], BS Artificial Intelligence student.">
+<style>
+  :root {
+    --bg: #f7f6f2;
+    --ink: #1b2430;
+    --muted: #55606e;
+    --line: #d9d7cf;
+    --accent: #0f5c4d;
+    --accent-ink: #ffffff;
+    --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12171d;
+      --ink: #e8e6df;
+      --muted: #9aa5b1;
+      --line: #2b343e;
+      --accent: #5fc4ad;
+      --accent-ink: #0b1612;
+      --card: #1a2128;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.6 Georgia, "Times New Roman", serif;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 22px; }
+  h1, h2, h3, nav, .btn, .meta {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  nav { padding: 20px 0; border-bottom: 1px solid var(--line); font-size: 15px; }
+  nav .wrap { display: flex; justify-content: space-between; align-items: center; }
+  nav a { color: var(--ink); text-decoration: none; margin-left: 20px; }
+  nav a:first-child { margin-left: 0; font-weight: 700; }
+  nav a:hover { color: var(--accent); }
+
+  header { padding: 72px 0 56px; }
+  h1 { font-size: clamp(30px, 6vw, 46px); line-height: 1.15; margin: 0 0 20px; letter-spacing: -0.02em; }
+  header p { color: var(--muted); max-width: 56ch; margin: 0 0 28px; }
+
+  .btn {
+    display: inline-block; background: var(--accent); color: var(--accent-ink);
+    padding: 12px 22px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 16px;
+  }
+  .btn:hover { opacity: .9; }
+  a:focus-visible, .btn:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+
+  section { padding: 48px 0; border-top: 1px solid var(--line); }
+  h2 { font-size: 26px; margin: 0 0 8px; letter-spacing: -0.01em; }
+  .lead { color: var(--muted); margin: 0 0 32px; }
+
+  .case { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 26px; margin-bottom: 24px; }
+  .case h3 { font-size: 20px; margin: 0 0 4px; }
+  .meta { font-size: 14px; color: var(--muted); margin: 0 0 18px; }
+  dl { margin: 0; }
+  dt { font-family: system-ui, sans-serif; font-weight: 700; font-size: 15px; margin-top: 14px; }
+  dd { margin: 2px 0 0; }
+  .links { margin-top: 18px; font-family: system-ui, sans-serif; font-size: 15px; }
+  .links a { color: var(--accent); margin-right: 18px; font-weight: 600; }
+
+  .skills { color: var(--muted); }
+  footer { padding: 32px 0 56px; border-top: 1px solid var(--line); color: var(--muted); font-size: 15px; font-family: system-ui, sans-serif; }
+  #contact p { max-width: 56ch; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="#top">[Your Name]</a>
+    <div><a href="#work">Projects</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+  </div>
+</nav>
+
+<main id="top">
+  <div class="wrap">
+
+    <!-- 1. CLAIM: what you do + one action -->
+    <header>
+      <h1>I build practical AI and machine learning solutions.</h1>
+      <p>
+        I'm [Your Name], a BS Artificial Intelligence student. Each project below starts with a real
+        problem, uses research and data to choose an approach, and ends with a measured result.
+      </p>
+      <a class="btn" href="#contact">Contact me</a>
+    </header>
+
+    <!-- 2. EVIDENCE: 2-3 case studies. Replace every [bracket]. -->
+    <section id="work">
+      <h2>Projects</h2>
+      <p class="lead">Each one shows the problem, how I solved it, and what the numbers say.</p>
+
+      <article class="case">
+        <h3>[Project 1 name]</h3>
+        <p class="meta">[Tools: Python, scikit-learn, pandas] · [Month Year]</p>
+        <dl>
+          <dt>Problem</dt>
+          <dd>[One sentence: who has this problem and why it matters.]</dd>
+          <dt>Data and research</dt>
+          <dd>[Where the data came from, its size, and what you read or tested before choosing a method.]</dd>
+          <dt>What I built</dt>
+          <dd>[The approach in plain words, and why you chose it over the alternatives.]</dd>
+          <dt>Result</dt>
+          <dd>[A real number: e.g. "F1 of 0.87 vs 0.71 for the baseline on 2,000 held-out samples."]</dd>
+        </dl>
+        <div class="links">
+          <a href="#">Code on GitHub</a>
+          <a href="#">Write-up</a>
+        </div>
+      </article>
+
+      <article class="case">
+        <h3>[Project 2 name]</h3>
+        <p class="meta">[Tools] · [Month Year]</p>
+        <dl>
+          <dt>Problem</dt>
+          <dd>[...]</dd>
+          <dt>Data and research</dt>
+          <dd>[...]</dd>
+          <dt>What I built</dt>
+          <dd>[...]</dd>
+          <dt>Result</dt>
+          <dd>[...]</dd>
+        </dl>
+        <div class="links">
+          <a href="#">Code on GitHub</a>
+          <a href="#">Write-up</a>
+        </div>
+      </article>
+
+      <article class="case">
+        <h3>[Project 3 name – optional, delete if not finished]</h3>
+        <p class="meta">[Tools] · [Month Year]</p>
+        <dl>
+          <dt>Problem</dt>
+          <dd>[...]</dd>
+          <dt>Data and research</dt>
+          <dd>[...]</dd>
+          <dt>What I built</dt>
+          <dd>[...]</dd>
+          <dt>Result</dt>
+          <dd>[...]</dd>
+        </dl>
+        <div class="links">
+          <a href="#">Code on GitHub</a>
+        </div>
+      </article>
+    </section>
+
+    <!-- 3. TRUST: short, specific, no adjectives -->
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        [Two or three sentences: your degree and university, your FlyRank internship and what you
+        actually did there, and what kind of work you want next.]
+      </p>
+      <p class="skills">
+        <strong>Tools I have used in the projects above:</strong> [Python, pandas, scikit-learn, PyTorch, SQL, Git]
+      </p>
+    </section>
+
+    <!-- 4. ACTION -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        If you have a data or ML problem that needs a practical solution, email me with a short
+        description and I'll reply within [2] days.
+      </p>
+      <a class="btn" href="mailto:you@example.com?subject=Portfolio%20enquiry">you@example.com</a>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 [Your Name] · <a href="https://github.com/your-username" style="color:inherit">GitHub</a> · <a href="https://linkedin.com/in/your-username" style="color:inherit">LinkedIn</a></div>
+</footer>
+
+</body>
+</html>
